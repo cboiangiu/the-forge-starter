@@ -1,0 +1,4 @@
+[submodule "third-party/The-Forge.cmake"]
+	path = third-party/The-Forge.cmake
+	url = https://github.com/cboiangiu/The-Forge.cmake.git
+	branch = cmake-build-as-package
