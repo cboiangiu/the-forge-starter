@@ -48,7 +48,7 @@ cmake --build build
 
 > Note: For single-config generators (`Make`, `Ninja`) this will build the configuration provided by `-DCMAKE_BUILD_TYPE` (`Debug` by default if omitted). For multi-config generators (e.g. Visual Studio) `cmake --build build` will by default build the `Debug` configuration. To build `Release`, use `cmake --build build --config Release`.
 
-It might take a little while but behind the scenes `CMake` will go away and download, configure, build and install `SDL`, `bgfx` and `Dear ImGui`.
+It might take a little while but behind the scenes `CMake` will go away and download, configure, build and install `The-Forge`.
 
 Once everything is complete you should be able to continue with the instructions in the main [README](README.md).
 
