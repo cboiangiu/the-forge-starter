@@ -6,6 +6,8 @@
 
 > The goal is to have it work for macOS (`Metal`), windows (`D3D12`) and linux (`Vulkan`) first.
 
+> Inspiration for this: https://github.com/pr0g/sdl-bgfx-imgui-starter, https://github.com/Hideman85/The-Forge-Project-Template, https://github.com/rextimmy/the-forge-glfw
+
 ## Cloning
 
 This project use [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules) feature so you must clone the repo recursively
