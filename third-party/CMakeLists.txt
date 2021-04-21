@@ -17,11 +17,6 @@ ExternalProject_Add(
     The-Forge
     BINARY_DIR ${CMAKE_CURRENT_BINARY_DIR}/The-Forge/build/${build_type_dir}
     INSTALL_DIR ${CMAKE_CURRENT_BINARY_DIR}
-    SOURCE_DIR The-Forge.cmake
+    SOURCE_DIR ../The-Forge.cmake/
     CMAKE_ARGS ${build_type_arg}
-               -D CMAKE_INSTALL_PREFIX=<INSTALL_DIR>
-               -D D3D12=OFF
-               -D METAL=ON
-               -D VULKAN=OFF
-               -D IOS=OFF
-               -D ANDROID=OFF)
+               -D CMAKE_INSTALL_PREFIX=<INSTALL_DIR>)

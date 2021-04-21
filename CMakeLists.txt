@@ -36,7 +36,7 @@ source_group(TREE ${CMAKE_CURRENT_SOURCE_DIR} FILES ${SRC_HEADERS} ${SRC_SOURCES
 
 target_link_libraries(
     ${PROJECT_NAME} PRIVATE
-    The-Forge::The-Forge
+    the-forge::the-forge
 )
 
 set_target_properties(
